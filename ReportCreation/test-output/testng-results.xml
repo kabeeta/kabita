@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12217" started-at="2019-02-06T12:18:30Z" finished-at="2019-02-06T12:18:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12217" started-at="2019-02-06T12:18:30Z" finished-at="2019-02-06T12:18:42Z">
+      <class name="test.DropdownTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.DropdownTest@598067a5]" name="beforeSuite" is-config="true" duration-ms="131" started-at="2019-02-06T12:18:30Z" finished-at="2019-02-06T12:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.DropdownTest@598067a5]" name="openBrowser" is-config="true" duration-ms="3566" started-at="2019-02-06T12:18:30Z" finished-at="2019-02-06T12:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.DropdownTest@598067a5]" name="beforeClass" is-config="true" duration-ms="4" started-at="2019-02-06T12:18:33Z" finished-at="2019-02-06T12:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.DropdownTest@598067a5]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-02-06T12:18:33Z" finished-at="2019-02-06T12:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.DropdownTest.testDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDropdown()[pri:0, instance:test.DropdownTest@598067a5]" name="testDropdown" duration-ms="8078" started-at="2019-02-06T12:18:33Z" finished-at="2019-02-06T12:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.DropdownTest@598067a5]" name="afterMethod" is-config="true" duration-ms="555" started-at="2019-02-06T12:18:42Z" finished-at="2019-02-06T12:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDropdown status=SUCCESS method=DropdownTest.testDropdown()[pri:0, instance:test.DropdownTest@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.DropdownTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
